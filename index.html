@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Proyecto Final Investigación de Operaciones </title>
+        <link rel="shortcut icon" href="img/escudo.png" type="image/png">
+        <meta name="description" content="Implementar programación lineal para resolver ejercicios. Proyecto realizado para Investigación de Operaciones. 2022-I">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand">
+                <img src="img/escudo.png">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-sm-end" id="collapsibleNavId">
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href=""><i class="fa fa-github" aria-hidden="true"></i>  Proyecto en GitHub<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <br>
+                    <h4>Implementación de Programación Lineal</h4>
+                </div>
+            </div>
+            <!--<div class="row"> Aquí va el paso a paso de todo 
+                <div class="col-sm">
+                    <p>Esta herramienta está creada para validar si su contraseña cumple con los parametros establecidos en el siguiente orden:
+                        <p>La contraseña deberá tener diez (10) caracteres en total con el siguiente orden:</p> 
+                        <ul>
+                            <li>Debe iniciar con una letra MAYÚSCULA.</li>
+                            <li>Seguido de tres (3) digitos.</li>
+                            <li>Seguido de tres (3) letras minúsculas.</li>
+                            <li>Terminado por tres (3) caracteres especiales (Ejemplo: <strong>¡</strong> , <strong>?</strong>, <strong>/</strong>).</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>-->
+            <div class="container-fluid text-center">
+                <div class="row justify-content-sm-center" style="margin-top: 3%;">
+                    <div class="col-sm-auto">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                              <h5 class="card-title">Ingrese lo primero </h5>
+                              <!-- Formulario para validar, agregar en action la funcion JS, deben llamar el archivo .js que valida el input-->
+                                <form autocomplete="off">
+                                    <input type="text" class="form-control" id="op">
+                                    <button type="submit" style="margin-top: 20px;" class="btn btn-primary">Validar</button>
+                                </form>
+                            </div>
+                            <div class="card-footer text-muted">Ejemplo: "A123abc.-?"</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--Script para validar la expresion-->
+        <script src="js/script.js"></script>
+
+        <footer class="page-footer font-small">
+            <div class="footer-copyright text-center py-3">Realizado por: Laura Sierra García - 2017114107 | Shirley Manrique Pinto - 2014114094
+            </div>
+        </footer>
+    </body>
+</html>

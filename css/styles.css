@@ -1,0 +1,21 @@
+body{
+    background-color: #e0dfdf;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    background-color: #343a40;
+    color: white; 
+    margin-top: 2%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h4{
+    text-align: center;
+}
