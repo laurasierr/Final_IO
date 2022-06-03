@@ -2,11 +2,11 @@
 <html lang="es">
     <head>
         <title> Proyecto Final Investigación de Operaciones </title>
-        <link rel="shortcut icon" href="img/escudo.png" type="image/png">
+        <link rel="shortcut icon" href="../img/escudo.png" type="image/png">
         <meta name="description" content="Implementar programación lineal para resolver ejercicios. Proyecto realizado para Investigación de Operaciones. 2022-I">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
@@ -15,11 +15,12 @@
     <body>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <a class="navbar-brand">
-                <img src="img/escudo.png">
+                <img src="../img/escudo.png">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a href="../index.html" id= "botonback" class="btn btn-success">Regresar al inicio</a>
             <div class="collapse navbar-collapse justify-content-sm-end" id="collapsibleNavId">
                 <ul class="navbar-nav mt-2 mt-lg-0">
                     <li class="nav-item active">
@@ -32,29 +33,28 @@
             <div class="row">
                 <div class="col-sm">
                     <br>
-                    <h4>Implementación del método matricial</h4>
+                    <h4>Implementación del método matricial - Minimización de Modelos</h4>
                 </div>
             </div>
-            <div class="row">  
-                <div class="col-sm">
-                    <p>Esta herramienta está desarrollada para optimizar modelos a través del método matricial, de acuerdo a los siguientes pasos:</p> 
-                        <ul>
-                            <li>Debe elegir si desea maximizar o minimizar el modelo</li>
-                            <li>Ingresar luego cuántas variables tiene el modelo e ingresarlas</li>
-                            <li>Ingresar los coeficientes de la variable objetivo</li>
-                            <li>Ingresar el número de restricciones e ingresar los coeficientes de cada restricción por cada variable junto con cada variable independiente.</li>
-                            <li>Al terminar de ingresar los datos, el sistema le mostrará lo siguiente:</li> 
-                            <li>El Vector de variables</li>
-                            <li>La Matriz de coeficientes de las resctricciones (Matriz A)</li>
-                            <li>El Vector de recursos</li>
-                            <li>El Vector de coeficientes de la función objetivo. </li>
-                        </ul>
-                    </p>
+            <div class="container-fluid text-center">
+                <div class="row justify-content-sm-center" style="margin-top: 3%;">
+                    <div class="col-sm-auto">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                              <h5 class="card-title">Presione continuar para iniciar el proceso</h5>
+                              <!-- Formulario para validar, agregar en action la funcion JS, deben llamar el archivo .js que valida el input-->
+                                <form autocomplete="off">
+                                    <button type="button" class="btn btn-primary">Continuar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <a href="pag/maximizador.html" id= "boton" class="btn btn-success">Maximizar</a>
-            <a href="pag/minimizador.html" id="boton" class="btn btn-primary">Minimizar</a>
         </div>
+
+         <!--Script para validar la expresion-->
+        <script src="js/script.js"></script>
 
         <footer class="page-footer font-small">
             <div class="footer-copyright text-center py-3">Realizado por: Laura Sierra García - 2017114107 | Shirley Manrique Pinto - 2014114094

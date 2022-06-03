@@ -19,3 +19,30 @@ footer{
 h4{
     text-align: center;
 }
+
+#boton{
+    background-color: #007bff;
+    color: white;
+    padding: .375rem .75 rem;
+    font-size: 1rem;
+    border-color: #007bff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: .25rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#botonback{
+    background-color: #007bff;
+    color: white;
+    padding: .375rem .75 rem;
+    font-size: 1rem;
+    border-color: #007bff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: .25rem;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
